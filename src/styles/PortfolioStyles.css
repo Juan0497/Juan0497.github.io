@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+a {
+     text-decoration: none;
+      color: inherit; 
+}
+
+.Navbar-container{
+    background-color: #3F308E;
+    height: 80px;
+}
+
+.Navbar-botons {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color: #6C5ACA;
+}
+
+.App-hero{
+    background-color: #6C5ACA;
+}
+
+.App-img{
+    width: 85%;
+    height: 60vh;
+}
+
+
+/*
+celeste
+buttons #297577
+navbar #359B9E
+social #1D4F51
+lines #45BEC2
+fondos #6ACCCF
+
+morado
+social #1E1741
+navbar #3F308E
+lines  #503CB5
+button #2F2467
+fondos #6C5ACA
+
+azul
+navbar #5885AF
+social #274472
+fondos #C3E0E5
+buton #41729F
+lineas #0C2D48*/
