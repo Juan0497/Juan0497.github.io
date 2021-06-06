@@ -9,7 +9,7 @@ const App = () => {
     return(
         <div className="App-container">
             <div className="App-hero d-flex justify-content-center">
-             <img className="App-img" src={hero} alt={hero}/>
+             <img className="App-img " src={hero} alt={hero}/>
             </div>  
         <Navbar/>
         </div>
