@@ -1,8 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-a {
+li {
      text-decoration: none;
       color: inherit; 
+}
+
+ a {
+    text-decoration: none;
+     color: inherit; 
+}
+
+#app {
+    background-color: #6C5ACA;
+}
+
+#iconolink {
+    width: 30px;
+    height: 32px;
+    border-radius: 30%;
+    background-color: #2F2467;
+}
+
+#githublink-button{
+    background-color: #6C5ACA;
+    margin-right: 5px;
+}
+
+#iconolink-button{
+    background-color: #6C5ACA;
+}
+
+.App-container{
+    height: 100%;
+    background-color: #6C5ACA;
+}
+.App-hero{
+    background-color: #6C5ACA;
+}
+
+.App-hero-line{
+    width: 100%;
+    height: 25px;
+    background-color: #503CB5;
+}
+
+.App-img{
+    width: 90%;
+    height: 55vh;
 }
 
 .Navbar-container{
@@ -17,18 +61,148 @@ a {
     justify-content: space-around;
     font-size: 30px;
     font-family: 'Anton', sans-serif;
-    color: #6C5ACA;
+    color: #917DD4;
 }
 
-.App-hero{
+.Navbar-container a:hover {
+     color: white;
+}
+
+.Download-container a:hover {
+    
+}
+
+
+.Carousel-container{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    height: 45%;
     background-color: #6C5ACA;
 }
 
-.App-img{
-    width: 85%;
-    height: 60vh;
+.carousel-img{
+    width: 800px;
+    height: 400px;
 }
 
+.SkillsetImg-container{
+    width: 50%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 28%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.SkillsetImg-html-container{
+    width: 33%;
+}
+.SkillsetImg-html{
+    width: 200px;
+    height: 200px;
+}
+
+
+.SkillsetImg-css-container{
+    width: 33%;
+}
+.SkillsetImg-css{
+    width: 200px;
+    height: 200px;
+}
+
+.SkillsetImg-js-container{
+    width: 33%;
+}
+.SkillsetImg-js{
+    width: 200px;
+    height: 200px;
+}
+
+.SkillsetImg-reactjs-container{
+    width: 33%;
+}
+.SkillsetImg-reactjs{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.SkillsetImg-github-container{
+    width: 33%;
+}
+.SkillsetImg-github{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.SkillsetImg-bootstrap-container{
+    width: 33%;
+}
+.SkillsetImg-bootstrap{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.SkillsetImg-babel-container{
+    width: 33%;
+}
+.SkillsetImg-babel{
+    width: 200px;
+    height: 200px;
+    margin-top: 170px;
+    
+}
+
+.SkillsetImg-webpack-container{
+    width: 33%;
+}
+.SkillsetImg-webpack{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.SkillsetImg-nodejs-container{
+    width: 33%;
+}
+.SkillsetImg-nodejs{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.Social-container{
+    margin-top: 30%;
+    width: 100%;
+    height: 200px;
+    background-color:  #3F308E;
+}
+
+.Social-links{
+    margin-top: 55px;
+    color:antiquewhite;
+}
+
+.Social-links-linkedin{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.Social-links-gmail{
+    width: 30px;
+    height: 30px;
+}
+
+.Social-coment-words{
+    margin-top: 50px;
+    color: azure;
+}
 
 /*
 celeste

@@ -20,6 +20,11 @@ module.exports = {
                 }
             },
             {
+                test: /\.js$/,
+                enforce: 'pre',
+                use: ['source-map-loader'],
+              },
+            {
                 test: /\.html$/,
                 use: [{
                     loader: "html-loader"
@@ -37,7 +42,7 @@ module.exports = {
                     ],
             },
             {
-                test: /\.(png|jpg|gif)$/i,
+                test: /\.(png|jpg|gif|pdf)$/i,
                     use: [
                                  {
                       loader: 'file-loader',
@@ -47,6 +52,17 @@ module.exports = {
                                }
                           ]
             },
+            {
+                test: /\.svg$/,
+                use: [
+                  {
+                    loader: 'svg-url-loader',
+                    options: {
+                      limit: 10000,
+                    },
+                  },
+                ],
+              },
         ]
     },
     plugins: [
