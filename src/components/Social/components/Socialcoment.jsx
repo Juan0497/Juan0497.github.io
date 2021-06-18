@@ -5,7 +5,8 @@ import "../../../styles/PortfolioStyles.css";
 const Socialcoment = () => {
     return(
       <div className="Social-coment">
-
+        <h1 className="Social-coment-title">About me</h1>
+        <div className="Social-coment-title-underline"></div>
         <div className="Social-coment-words">
           <p>
           Soy un desarrollador Web junior con experiencia en HTML, CSS, JS, ReactJs y Angular <br/>
