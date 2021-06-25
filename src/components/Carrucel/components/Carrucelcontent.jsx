@@ -1,7 +1,7 @@
 import React from "react";
-import footer from "../../../styles/imgs/footer.jpg";
-import hero from "../../../styles/imgs/hero.jpg";
-import try2 from "../../../styles/imgs/try2.jpg";
+import PPT from "../../../styles/imgs/PPT.png";
+import Pokeapi from "../../../styles/imgs/Pokeapi.png";;
+import Trackbus from "../../../styles/imgs/Trackbus.png";
 import Carousel from 'react-bootstrap/Carousel';
 import github from "../../../styles/imgs/Github.png";
 import link from "../../../styles/imgs/Iconolink.jpg";
@@ -14,8 +14,8 @@ const Carrucelcontent = () => {
   <Carousel.Item>
     <img
       className="carousel-img d-block w-100 "
-      src={try2}
-      alt={try2}
+      src={Pokeapi}
+      alt={Pokeapi}
     />
     <Carousel.Caption>
      <a  href="https://github.com/Juan0497/pokeapi"><button id="githublink-button" className="btn"><img id="githublink" src={github}/></button></a>
@@ -25,8 +25,8 @@ const Carrucelcontent = () => {
   <Carousel.Item>
     <img
       className="carousel-img d-block w-100 "
-      src={hero}
-      alt={hero}
+      src={PPT}
+      alt={PPT}
     />
 
     <Carousel.Caption>
@@ -37,10 +37,9 @@ const Carrucelcontent = () => {
   <Carousel.Item>
     <img
       className="carousel-img d-block w-100"
-      src={footer}
-      alt={footer}
+      src={Trackbus}
+      alt={Trackbus}
     />
-
     <Carousel.Caption>
     <button id="githublink-button" className="btn"><img id="githublink" src={github}/></button>
     <button id="iconolink-button" className="btn"><img id="iconolink" src={link}/></button>

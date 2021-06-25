@@ -7,7 +7,7 @@ import Socialcoment from "./components/socialcoment";
 
 const Social = () => {
     return(
-        <div className="Social-container d-flex justify-content-center justify-content-around">
+        <div className="Social-container d-flex" id="Aboutme">
             <Socialcoment/>
             <Sociallinks/>
         </div>

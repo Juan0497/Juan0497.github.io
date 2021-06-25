@@ -14,13 +14,11 @@ import "../styles/PortfolioStyles.css";
 const App = () => {
     return(
         <div className="App-container">
+            <Navbar />
             <div className="App-hero d-flex justify-content-center">
-                 <img className="App-img" src={foote} alt={foote}/>
+                 <img className="App-img" id="Home" src={foote} alt={foote}/>
             </div>  
             <div className="App-hero-line"/>
-            <div className="App-Navbar fixed-top">
-                 <Navbar/>
-                 </div>
                 <Carruceltitle/>
                  <Carrucel/>
                  <Skillsettitle/>
@@ -29,6 +27,8 @@ const App = () => {
                  <Social/>
             </div>     
         </div>
+       
+      
     );
 };
 

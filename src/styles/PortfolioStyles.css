@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
+
 li {
      text-decoration: none;
       color: inherit; 
@@ -10,8 +11,17 @@ li {
      color: inherit; 
 }
 
+:root {
+    --color : #FEFDFD;
+    --colorhover: #917DD4;
+    --backgroundcolor : #6C5ACA;
+    --Navbarscolor: #3F308E; 
+    --font: 'Permanent Marker', cursive;
+}
+
 #app {
-    background-color: #6C5ACA;
+    background-color: var( --backgroundcolor); 
+    height: 100%;
 }
 
 #iconolink {
@@ -22,20 +32,21 @@ li {
 }
 
 #githublink-button{
-    background-color: #6C5ACA;
+    background-color: var( --backgroundcolor);
     margin-right: 5px;
 }
 
 #iconolink-button{
-    background-color: #6C5ACA;
+    background-color: var( --backgroundcolor);
 }
 
 .App-container{
     height: 100%;
-    background-color: #6C5ACA;
-}
+    background-color: var( --backgroundcolor);
+     }
+
 .App-hero{
-    background-color: #6C5ACA;
+    background-color: var( --backgroundcolor);
     margin-top: 30px;
 }
 
@@ -51,8 +62,12 @@ li {
 }
 
 .Navbar-container{
-    background-color: #3F308E;
+    background-color: var(--Navbarscolor);
     height: 110px;
+}
+
+.Navbar-container a:hover {
+    color: var(--colorhover);
 }
 
 .Navbar-botons {
@@ -62,27 +77,35 @@ li {
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
-    font-family: 'Anton', sans-serif;
-    color: #917DD4;
+    font-family: var(--font);
+    color: var(--color);
 }
 
+.NavbarCV-container{
+    width: 100%;
+    height: 100%;
+}
 
-.Navbar-container a:hover {
-     color: #FEFDFD;
+.NavbarCVlink-boton{
+    margin-top: 10px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-family: var(--font);
+    color: var(--color);
 }
 
 .Carruceltitle{
     margin-top: 15%;
     margin-left: 15%;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 60px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .Carruceltitle-underline{
     margin-left: 15%;
     height: 5px;
-    background-color: #FEFDFD;
+    background-color: var(--color);
     width: 70%;
 }
 
@@ -91,7 +114,7 @@ li {
     margin-left: 25%;
     width: 50%;
     height: 45%;
-    background-color: #6C5ACA;
+    background-color: var( --backgroundcolor);
 }
 
 .carousel-img{
@@ -104,15 +127,15 @@ li {
 .Skillset-title{
     margin-top: 15%;
     margin-left: 15%;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 60px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .Skillset-title-underline{
     margin-left: 15%;
     height: 5px;
-    background-color: #FEFDFD;
+    background-color: var(--color);
     width: 70%;
 }
 
@@ -137,16 +160,16 @@ li {
     margin-top: 30px;
     margin-left: 25px;
     height: 5px;
-    background-color: #FEFDFD;
+    background-color: var(--color);
     width: 45%;
 }
 
 .SkillsetImg-html-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-css-container{
@@ -161,16 +184,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-css-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-js-container{
@@ -184,16 +207,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-js-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-reactjs-container{
@@ -209,16 +232,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-reactjs-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-github-container{
@@ -234,16 +257,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-github-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-bootstrap-container{
@@ -259,16 +282,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-bootstrap-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-babel-container{
@@ -285,7 +308,7 @@ li {
     
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
@@ -293,9 +316,9 @@ li {
     margin-bottom: 100px;
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 .SkillsetImg-webpack-container{
@@ -311,16 +334,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-webpack-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 
@@ -337,16 +360,16 @@ li {
     margin-top:30px;
     margin-left:25px;
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
 .SkillsetImg-nodejs-name{
     margin-left: 25px;
     margin-top: 5px;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font);
     font-size: 30px;
-    color: #FEFDFD;
+    color: var(--color);
 }
 
 
@@ -354,54 +377,94 @@ li {
     margin-top: 60%;
     width: 100%;
     height: 300px;
-    background-color:  #3F308E;
+    background-color:  var(--Navbarscolor);
 }
 
 .Social-links{
-    margin-top: 125px;
-    margin-right: 70px;
-    color:#FEFDFD;
+    margin-top: 40px;
+    margin-left: 80px;
+    color: var(--color);
+}
+
+.Social-links-title{
+    background-color: #9480D5;
+    font-family: var(--font);
+    color: var(--color);
+    height: 60px;
+    margin-left: 65px;
+    padding-top: 10px;
+}
+
+.Social-links-title-underline{
+    height: 5px;
+    background-color:var(--color);
+    width:40%;
+    margin-left: 64px;
+}
+
+.Social-links-container{
+    margin-top: 45px;
+}
+
+.Social-links-background{
+    background-color: #9480D5;
+    width: 450px;
+    height: 200px;
+    margin-left: 55px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Social-links-background img:hover{
+    cursor: pointer;
 }
 
 .Social-links-linkedin{
-    width: 30px;
-    height: 30px;
-    
+    width: 20px;
+    height: 30px;  
+    margin-left: 70px; 
+}
+.Social-links-linkedin-href{
+    width: 20px;
 }
 
 .Social-links-gmail{
     width: 30px;
     height: 30px;
+    margin-left: 140px;
+}
+
+.Social-links-github{
+    margin-left: 60px;
+}
+
+.Social-coment{
+    margin-left: 100px;
 }
 
 .Social-coment-title{
     margin-top: 20px;
-    font-family: 'Anton', sans-serif;
-    color: #FEFDFD;
+    font-family: var(--font);
+    color: var(--color);
 }
 
 .Social-coment-title-underline{
     height:5px;
-    background-color:#FEFDFD;
+    background-color:var(--color);
     width:45%;
 }
 
-.Social-coment-words{
-    margin-top: 30px;
-    font-family: 'Anton', sans-serif;
-    font-size: 30px;
-    color: #FEFDFD;
+.Social-coment-words-container{
+    width: 900px;
+    height: 100px;
 }
 
-/*
+.Social-coment-words{
+    font-family: var(--font);
+    font-size: 20px;
+    color: var(--color);
+    margin-top: 15px;
+    height: 110px;
+    width: 900px;
+}
 
 
-morado
-social #1E1741
-navbar #3F308E
-lines  #503CB5
-button #2F2467
-fondos #6C5ACA
-fuente #FEFDFD
-
-*/
