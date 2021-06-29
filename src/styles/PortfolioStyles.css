@@ -1,470 +1,490 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-
 li {
-     text-decoration: none;
-      color: inherit; 
+  text-decoration: none;
+  color: inherit;
 }
 
- a {
-    text-decoration: none;
-     color: inherit; 
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 :root {
-    --color : #FEFDFD;
-    --colorhover: #917DD4;
-    --backgroundcolor : #6C5ACA;
-    --Navbarscolor: #3F308E; 
-    --font: 'Permanent Marker', cursive;
+  --color: #fefdfd;
+  --colorhover: #917dd4;
+  --backgroundcolor: #6c5aca;
+  --Navbarscolor: #3f308e;
+  --font: 'Permanent Marker', cursive;
 }
 
 #app {
-    background-color: var( --backgroundcolor); 
-    height: 100%;
+  height: auto;
+  --backgroundcolor: #6c5aca;
 }
 
 #iconolink {
-    width: 30px;
-    height: 32px;
-    border-radius: 30%;
-    background-color: #2F2467;
+  width: 30px;
+  height: 32px;
+  border-radius: 30%;
+  background-color: #2f2467;
 }
 
-#githublink-button{
-    background-color: var( --backgroundcolor);
-    margin-right: 5px;
+#githublink-button {
+  background-color: var(--backgroundcolor);
+  margin-right: 5px;
 }
 
-#iconolink-button{
-    background-color: var( --backgroundcolor);
+#iconolink-button {
+  background-color: var(--backgroundcolor);
 }
 
-.App-container{
-    height: 100%;
-    background-color: var( --backgroundcolor);
-     }
-
-.App-hero{
-    background-color: var( --backgroundcolor);
-    margin-top: 30px;
+.App-container {
+  height: 100%;
+  background-color: var(--backgroundcolor);
 }
 
-.App-hero-line{
-    width: 100%;
-    height: 25px;
-    background-color: #503CB5;
+.App-hero {
+  background-color: var(--backgroundcolor);
+  margin-top: 30px;
 }
 
-.App-img{
-    width: 90%;
-    height: 55vh;
+.App-hero-line {
+  width: 100%;
+  height: 25px;
+  background-color: #503cb5;
 }
 
-.Navbar-container{
-    background-color: var(--Navbarscolor);
-    height: 110px;
+.App-img {
+  width: 90%;
+  height: 55vh;
+}
+
+.Navbar-container {
+  background-color: var(--Navbarscolor);
+  height: 110px;
 }
 
 .Navbar-container a:hover {
-    color: var(--colorhover);
+  color: var(--colorhover);
 }
 
 .Navbar-botons {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 30px;
-    font-family: var(--font);
-    color: var(--color);
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  font-family: var(--font);
+  color: var(--color);
 }
 
-.NavbarCV-container{
-    width: 100%;
-    height: 100%;
+.NavbarCV-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #6c5aca;
 }
 
-.NavbarCVlink-boton{
-    margin-top: 10px;
-    margin-left: 500px;
-    font-size: 30px;
-    font-family: var(--font);
-    color: var(--color);
+.NavbarCV-pdf {
+  width: 700px;
+  height: 700px;
 }
 
-.Carruceltitle{
-    margin-top: 15%;
-    margin-left: 15%;
-    font-family: var(--font);
-    font-size: 60px;
-    color: var(--color);
+.Cvbtn {
+  background-color: var(--Navbarscolor);
+  margin-right: 25px;
+  margin-top: 10px;
 }
 
-.Carruceltitle-underline{
-    margin-left: 15%;
-    height: 5px;
-    background-color: var(--color);
-    width: 70%;
+.Cvbtn:hover {
+  background-color: azure;
 }
 
-.Carousel-container{
-    margin-top: 5%;
-    margin-left: 25%;
-    width: 50%;
-    height: 45%;
-    background-color: var( --backgroundcolor);
+.NavbarCVlink-boton {
+  margin-top: 10px;
+  margin-left: 500px;
+  font-size: 30px;
+  --backgroundcolor: #6c5aca;
+  font-family: var(--font);
+  color: var(--color);
 }
 
-.carousel-img{
-    width: 800px;
-    height: 400px;
+.Carruceltitle {
+  margin-top: 15%;
+  margin-left: 15%;
+  font-family: var(--font);
+  font-size: 60px;
+  color: var(--color);
 }
 
-
-
-.Skillset-title{
-    margin-top: 15%;
-    margin-left: 15%;
-    font-family: var(--font);
-    font-size: 60px;
-    color: var(--color);
+.Carruceltitle-underline {
+  margin-left: 15%;
+  height: 5px;
+  background-color: var(--color);
+  width: 70%;
 }
 
-.Skillset-title-underline{
-    margin-left: 15%;
-    height: 5px;
-    background-color: var(--color);
-    width: 70%;
+.Carousel-container {
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 50%;
+  height: 45%;
+  background-color: var(--backgroundcolor);
 }
 
-.SkillsetImg-container{
-    width: 50%;
-    height: 400px;
-    margin-top: 100px;
-    margin-left: 28%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.carousel-img {
+  width: 800px;
+  height: 400px;
 }
 
-.SkillsetImg-html-container{
-    width: 33%;
-}
-.SkillsetImg-html{
-    width: 200px;
-    height: 200px;
-}
-.SkillsetImg-html-underline{
-    margin-top: 30px;
-    margin-left: 25px;
-    height: 5px;
-    background-color: var(--color);
-    width: 45%;
+.Skillset-title {
+  margin-top: 15%;
+  margin-left: 15%;
+  font-family: var(--font);
+  font-size: 60px;
+  color: var(--color);
+  background-color: var(--backgroundcolor);
 }
 
-.SkillsetImg-html-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.Skillset-title-underline {
+  margin-left: 15%;
+  height: 5px;
+  background-color: var(--color);
+  width: 70%;
 }
 
-.SkillsetImg-css-container{
-    width: 33%;
-}
-.SkillsetImg-css{
-    width: 200px;
-    height: 200px;
-}
-
-.SkillsetImg-css-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-container {
+  width: 50%;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 28%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: var(--backgroundcolor);
 }
 
-.SkillsetImg-css-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-html-container {
+  width: 33%;
+  background-color: var(--backgroundcolor);
+}
+.SkillsetImg-html {
+  width: 200px;
+  height: 200px;
+  background-color: var(--backgroundcolor);
+}
+.SkillsetImg-html-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
+  background-color: var(--backgroundcolor);
 }
 
-.SkillsetImg-js-container{
-    width: 33%;
-}
-.SkillsetImg-js{
-    width: 200px;
-    height: 200px;
-}
-.SkillsetImg-js-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-html-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
+  background-color: var(--backgroundcolor);
 }
 
-.SkillsetImg-js-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-css-container {
+  width: 33%;
+  background-color: var(--backgroundcolor);
+}
+.SkillsetImg-css {
+  width: 200px;
+  height: 200px;
+  background-color: var(--backgroundcolor);
 }
 
-.SkillsetImg-reactjs-container{
-    width: 33%;
-}
-.SkillsetImg-reactjs{
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-}
-
-.SkillsetImg-reactjs-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-css-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.SkillsetImg-reactjs-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-css-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  background-color: var(--backgroundcolor);
+  color: var(--color);
 }
 
-.SkillsetImg-github-container{
-    width: 33%;
+.SkillsetImg-js-container {
+  width: 33%;
+  background-color: var(--backgroundcolor);
 }
-.SkillsetImg-github{
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
+.SkillsetImg-js {
+  width: 200px;
+  height: 200px;
+  background-color: var(--backgroundcolor);
 }
-
-.SkillsetImg-github-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
-}
-
-.SkillsetImg-github-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-js-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.SkillsetImg-bootstrap-container{
-    width: 33%;
-}
-.SkillsetImg-bootstrap{
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-}
-
-.SkillsetImg-bootstrap-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-js-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-.SkillsetImg-bootstrap-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-reactjs-container {
+  width: 33%;
+}
+.SkillsetImg-reactjs {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
 }
 
-.SkillsetImg-babel-container{
-    width: 33%;
-}
-.SkillsetImg-babel{
-    width: 200px;
-    height: 200px;
-    margin-top: 130px;
-    padding-top: 35px;
+.SkillsetImg-reactjs-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.SkillsetImg-babel-underline{
-    
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-reactjs-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-.SkillsetImg-babel-name{
-    margin-bottom: 100px;
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-github-container {
+  width: 33%;
+}
+.SkillsetImg-github {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
 }
 
-.SkillsetImg-webpack-container{
-    width: 33%;
-}
-.SkillsetImg-webpack{
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-}
-
-.SkillsetImg-webpack-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-github-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.SkillsetImg-webpack-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-github-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-
-.SkillsetImg-nodejs-container{
-    width: 33%;
+.SkillsetImg-bootstrap-container {
+  width: 33%;
 }
-.SkillsetImg-nodejs{
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-}
-
-.SkillsetImg-nodejs-underline{
-    margin-top:30px;
-    margin-left:25px;
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.SkillsetImg-bootstrap {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
 }
 
-.SkillsetImg-nodejs-name{
-    margin-left: 25px;
-    margin-top: 5px;
-    font-family: var(--font);
-    font-size: 30px;
-    color: var(--color);
+.SkillsetImg-bootstrap-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-
-.Social-container{
-    margin-top: 60%;
-    width: 100%;
-    height: 300px;
-    background-color:  var(--Navbarscolor);
+.SkillsetImg-bootstrap-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-.Social-links{
-    margin-top: 40px;
-    margin-left: 80px;
-    color: var(--color);
+.SkillsetImg-babel-container {
+  width: 33%;
+}
+.SkillsetImg-babel {
+  width: 200px;
+  height: 200px;
+  margin-top: 130px;
+  padding-top: 35px;
 }
 
-.Social-links-title{
-    background-color: #9480D5;
-    font-family: var(--font);
-    color: var(--color);
-    height: 60px;
-    margin-left: 65px;
-    padding-top: 10px;
+.SkillsetImg-babel-underline {
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.Social-links-title-underline{
-    height: 5px;
-    background-color:var(--color);
-    width:40%;
-    margin-left: 64px;
+.SkillsetImg-babel-name {
+  margin-bottom: 100px;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-.Social-links-container{
-    margin-top: 45px;
+.SkillsetImg-webpack-container {
+  width: 33%;
+}
+.SkillsetImg-webpack {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
 }
 
-.Social-links-background{
-    background-color: #9480D5;
-    width: 450px;
-    height: 200px;
-    margin-left: 55px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.SkillsetImg-webpack-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.Social-links-background img:hover{
-    cursor: pointer;
+.SkillsetImg-webpack-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-.Social-links-linkedin{
-    width: 20px;
-    height: 30px;  
-    margin-left: 70px; 
+.SkillsetImg-nodejs-container {
+  width: 33%;
 }
-.Social-links-linkedin-href{
-    width: 20px;
-}
-
-.Social-links-gmail{
-    width: 30px;
-    height: 30px;
-    margin-left: 140px;
+.SkillsetImg-nodejs {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
 }
 
-.Social-links-github{
-    margin-left: 60px;
+.SkillsetImg-nodejs-underline {
+  margin-top: 30px;
+  margin-left: 25px;
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
 }
 
-.Social-coment{
-    margin-left: 100px;
+.SkillsetImg-nodejs-name {
+  margin-left: 25px;
+  margin-top: 5px;
+  font-family: var(--font);
+  font-size: 30px;
+  color: var(--color);
 }
 
-.Social-coment-title{
-    margin-top: 20px;
-    font-family: var(--font);
-    color: var(--color);
+.Social-container {
+  margin-top: 60%;
+  width: 100%;
+  height: 300px;
+  background-color: var(--Navbarscolor);
 }
 
-.Social-coment-title-underline{
-    height:5px;
-    background-color:var(--color);
-    width:45%;
+.Social-links {
+  margin-top: 40px;
+  margin-left: 80px;
+  color: var(--color);
 }
 
-.Social-coment-words-container{
-    width: 900px;
-    height: 100px;
+.Social-links-title {
+  background-color: #9480d5;
+  font-family: var(--font);
+  color: var(--color);
+  height: 60px;
+  margin-left: 65px;
+  padding-top: 10px;
 }
 
-.Social-coment-words{
-    font-family: var(--font);
-    font-size: 20px;
-    color: var(--color);
-    margin-top: 15px;
-    height: 110px;
-    width: 900px;
+.Social-links-title-underline {
+  height: 5px;
+  background-color: var(--color);
+  width: 40%;
+  margin-left: 64px;
 }
 
+.Social-links-container {
+  margin-top: 45px;
+}
 
+.Social-links-background {
+  background-color: #9480d5;
+  width: 450px;
+  height: 200px;
+  margin-left: 55px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Social-links-background img:hover {
+  cursor: pointer;
+}
+
+.Social-links-linkedin {
+  width: 20px;
+  height: 30px;
+  margin-left: 70px;
+}
+.Social-links-linkedin-href {
+  width: 20px;
+}
+
+.Social-links-gmail {
+  width: 30px;
+  height: 30px;
+  margin-left: 140px;
+}
+
+.Social-links-github {
+  margin-left: 60px;
+}
+
+.Social-coment {
+  margin-left: 100px;
+}
+
+.Social-coment-title {
+  margin-top: 20px;
+  font-family: var(--font);
+  color: var(--color);
+}
+
+.Social-coment-title-underline {
+  height: 5px;
+  background-color: var(--color);
+  width: 45%;
+}
+
+.Social-coment-words-container {
+  width: 900px;
+  height: 100px;
+}
+
+.Social-coment-words {
+  font-family: var(--font);
+  font-size: 20px;
+  color: var(--color);
+  margin-top: 15px;
+  height: 110px;
+  width: 900px;
+}

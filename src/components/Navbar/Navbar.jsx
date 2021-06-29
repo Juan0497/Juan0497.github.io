@@ -1,12 +1,10 @@
-import React from "react";
-import Navbarbotons from "./components/Navbarbotons";
-
-
+import React from 'react'
+import Navbarbotons from './components/Navbarbotons'
 
 const Navbar = () => (
-    <div>
-       <Navbarbotons/>
-     </div>  
-    );
+  <div>
+    <Navbarbotons />
+  </div>
+)
 
-    export default Navbar;
+export default Navbar
