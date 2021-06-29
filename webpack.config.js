@@ -3,10 +3,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    main: './src/index.js',
+    'pdf.worker': path.join(__dirname, './node_modules/pdfjs-dist/build/pdf.worker.js'),
+  },
   output: {
     path: path.resolve(__dirname, 'docs'),
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
