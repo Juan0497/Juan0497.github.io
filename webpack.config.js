@@ -8,7 +8,7 @@ module.exports = {
     'pdf.worker': path.join(__dirname, './node_modules/pdfjs-dist/build/pdf.worker.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.join(__dirname, 'docs'),
     filename: '[name].bundle.js',
   },
   resolve: {
