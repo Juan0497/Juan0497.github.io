@@ -1,7 +1,7 @@
 import React from 'react'
-import github from '../../../styles/imgs/iconogithub.png'
-import linkedin from '../../../styles/imgs/LinkedIn.png'
-import gmail from '../../../styles/imgs/gmail.png'
+import github from '../../../styles/imgs/iconos/iconogithub.png'
+import linkedin from '../../../styles/imgs/iconos/iconoLinkedIn.png'
+import gmail from '../../../styles/imgs/logos/logogmail.png'
 import 'bootstrap/dist/css/bootstrap.css'
 import '../../../styles/PortfolioStyles.css'
 

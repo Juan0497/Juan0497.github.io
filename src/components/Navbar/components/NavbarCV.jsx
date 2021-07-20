@@ -4,7 +4,7 @@ import { Document, Page } from 'react-pdf'
 import { pdfjs } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = '../node_modules/pdfjs-dist/build/pdf.worker.js'
 import pdfFile from '../../../pdf/juanfernandezcv.pdf'
-import arrow from '../../../styles/imgs/backarrow.png'
+import arrow from '../../../styles/imgs/iconos/iconobackarrow.png'
 import '../../../styles/PortfolioStyles.css'
 
 const options = {

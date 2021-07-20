@@ -5,7 +5,6 @@ import Carrucel from '../components/Carrucel/Carrucel'
 import Skillsettitle from '../components/Skillset/Skillsettitle'
 import Skillset from '../components/Skillset/Skillset'
 import Social from '../components/Social/Social'
-import foote from '../styles/imgs/footer.jpg'
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/PortfolioStyles.css'
 
@@ -13,10 +12,7 @@ const App = () => {
   return (
     <div className="App-container">
       <Navbar />
-      <div className="App-hero d-flex justify-content-center">
-        <img className="App-img" id="Home" src={foote} alt={foote} />
-      </div>
-      <div className="App-hero-line" />
+      <div className="App-hero d-flex justify-content-center"></div>
       <Carruceltitle />
       <Carrucel />
       <Skillsettitle />
@@ -29,3 +25,5 @@ const App = () => {
 }
 
 export default App
+
+/** <img className="App-img" id="Home" src={} alt={} /> */

@@ -1,11 +1,11 @@
 import React from 'react'
-import PPT from '../../../styles/imgs/PPT.png'
-import Pokeapi from '../../../styles/imgs/Pokeapi.png'
-import Trackbus from '../../../styles/imgs/Trackbus.png'
 import Carousel from 'react-bootstrap/Carousel'
-import github from '../../../styles/imgs/iconogithub.png'
-import link from '../../../styles/imgs/Iconolink.jpg'
 import '../../../styles/PortfolioStyles.css'
+import PPT from '../../../styles/imgs/proyectos/PPT.png'
+import Pokeapi from '../../../styles/imgs/proyectos/Pokeapi.png'
+import Trackbus from '../../../styles/imgs/proyectos/Trackbus.png'
+import github from '../../../styles/imgs/iconos/iconogithub.png'
+import link from '../../../styles/imgs/iconos/iconolink.jpg'
 
 const Carrucelcontent = () => {
   return (
@@ -15,11 +15,11 @@ const Carrucelcontent = () => {
           <img className="carousel-img d-block w-100 " src={Pokeapi} alt={Pokeapi} />
           <Carousel.Caption>
             <a href="https://github.com/Juan0497/pokeapi">
-              <button id="githublink-button" className="btn">
+              <button id="githublink-button" className="btn btn-outline-dark">
                 <img id="githublink" src={github} />
               </button>
             </a>
-            <button id="iconolink-button" className="btn">
+            <button id="iconolink-button" className="btn btn-outline-dark">
               <img id="iconolink" src={link} />
             </button>
           </Carousel.Caption>
@@ -28,10 +28,10 @@ const Carrucelcontent = () => {
           <img className="carousel-img d-block w-100 " src={PPT} alt={PPT} />
 
           <Carousel.Caption>
-            <button id="githublink-button" className="btn">
+            <button id="githublink-button" className="btn btn-outline-dark">
               <img id="githublink" src={github} />
             </button>
-            <button id="iconolink-button" className="btn">
+            <button id="iconolink-button" className="btn btn-outline-dark">
               <img id="iconolink" src={link} />
             </button>
           </Carousel.Caption>
@@ -39,10 +39,10 @@ const Carrucelcontent = () => {
         <Carousel.Item>
           <img className="carousel-img d-block w-100" src={Trackbus} alt={Trackbus} />
           <Carousel.Caption>
-            <button id="githublink-button" className="btn">
+            <button id="githublink-button" className="btn btn-outline-dark">
               <img id="githublink" src={github} />
             </button>
-            <button id="iconolink-button" className="btn">
+            <button id="iconolink-button" className="btn btn-outline-dark">
               <img id="iconolink" src={link} />
             </button>
           </Carousel.Caption>
