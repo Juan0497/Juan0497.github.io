@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
-li {
-  text-decoration: none;
-  color: inherit;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+img {
+  border: none;
+}
+
+ol,
+ul,
+li,
 a {
+  list-style-type: none;
   text-decoration: none;
   color: inherit;
 }
@@ -68,8 +77,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   font-size: 30px;
+  align-items: center;
   font-family: var(--font);
   color: var(--color);
 }
@@ -133,6 +142,21 @@ a {
 .carousel-img {
   width: 800px;
   height: 400px;
+}
+.sr-only{
+  display: flex;
+  align-items: center;
+  background-color: var(--backgroundcolor);
+  height: 45px;
+  width: 70px;
+}
+.carousel-control-prev-icon{
+  background-color: var(--backgroundcolor);
+  height: 45px;
+}
+.carousel-control-next-icon{
+  background-color: var(--backgroundcolor);
+  height: 45px;
 }
 
 .Skillset-title {
@@ -544,4 +568,260 @@ a {
   width: 600px;
   font-family: var(--font);
   color: var(--color);
+}
+
+@media handheld and (max-width: 500px) and (min-width:300px) {
+  .Skillset {
+    width: 100%;
+  }
+  
+
+  .SkillsetImg-container {
+    width: 800px;
+    height: auto;
+    margin-top: 100px;
+    padding-right: 250px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .SkillsetImg-html-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-html {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+  .SkillsetImg-html-underline {
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-html-name {
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-css-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-css {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+
+  .SkillsetImg-css-underline {
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-css-name {
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-js-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-js {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-left: 35px;
+  }
+
+  .SkillsetImg-js-underline {
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-js-name {
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-reactjs-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-reactjs {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+
+  .SkillsetImg-reactjs-underline {
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-reactjs-name {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-github-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-github {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-left: 35px;
+  }
+
+  .SkillsetImg-github-underline {
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-github-name {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 60px;
+    color: var(--color);
+    font-family: var(--font);
+  }
+
+  .SkillsetImg-bootstrap-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-bootstrap {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-left: 35px;
+  }
+
+  .SkillsetImg-bootstrap-underline {
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-bootstrap-name {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-babel-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-babel {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-top: 130px;
+    margin-left: 35px;
+    padding-top: 190px;
+  }
+
+  .SkillsetImg-babel-underline {
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-babel-name {
+    margin-bottom: 100px;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-webpack-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-webpack {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+
+  .SkillsetImg-webpack-underline {
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-webpack-name {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--color);
+  }
+
+  .SkillsetImg-nodejs-container {
+    width: 50%;
+  }
+
+  .SkillsetImg-nodejs {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    margin-left: 35px;
+    margin-top: 100px;
+  }
+
+  .SkillsetImg-nodejs-underline {
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 15px;
+    width: 50%;
+    background-color: var(--color);
+  }
+
+  .SkillsetImg-nodejs-name {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 60px;
+    color: var(--color);
+    font-family: var(--font);
+  }
 }

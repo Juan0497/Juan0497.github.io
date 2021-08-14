@@ -10,7 +10,7 @@ import '../styles/PortfolioStyles.css'
 
 const App = () => {
   return (
-    <div className="App-container">
+    <div className="App-container w-md-50 w-lg-100 w-xl-100">
       <Navbar />
       <div className="App-hero d-flex justify-content-center"></div>
       <Carruceltitle />
@@ -26,4 +26,3 @@ const App = () => {
 
 export default App
 
-/** <img className="App-img" id="Home" src={} alt={} /> */

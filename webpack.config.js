@@ -48,7 +48,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif|pdf)$/i,
+        test: /\.(png|jpg|gif|pdf|mov|mp4)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -74,11 +74,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      favicon: './src/styles/imgs/favicon/favicon.ico',
       file: './index.html',
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: './src/pdf/juanfernandezcv.pdf' },
+        { from: './src/pdf/Juan_Fernández_CV.pdf' },
         {
           from: 'node_modules/pdfjs-dist/cmaps/',
           to: 'cmaps/',
