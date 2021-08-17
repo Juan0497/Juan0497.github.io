@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Document, Page } from 'react-pdf'
 import { pdfjs } from 'react-pdf'
-pdfjs.GlobalWorkerOptions.workerSrc = '../docs/pdf.worker.bundle.js'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 import PdfFile from '../../../pdf/Juan_Fernández_CV.pdf'
 import arrow from '../../../styles/imgs/iconos/iconobackarrow.png'
 import '../../../styles/PortfolioStyles.css'
