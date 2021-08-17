@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Document, Page } from 'react-pdf'
-import { pdfjs } from 'react-pdf'
+import { Document, Page, pdfjs } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = '../node_modules/pdfjs-dist/build/pdf.worker.js'
 import PdfFile from '../../../pdf/Juan_Fernández_CV.pdf'
 import arrow from '../../../styles/imgs/iconos/iconobackarrow.png'
