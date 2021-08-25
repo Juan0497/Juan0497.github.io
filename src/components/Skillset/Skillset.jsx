@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 const Skillset = () => {
   return (
-    <div className="Skillset">
+    <div id="Skillset" className="Skillset">
       <SkillsetImg />
     </div>
   )

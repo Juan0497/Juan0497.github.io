@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel'
 import '../../../styles/PortfolioStyles.css'
 import PPT from '../../../styles/imgs/proyectos/PPT.png'
 import Pokeapi from '../../../styles/imgs/proyectos/Pokeapi.png'
-import Pokeapivideo from '../../../styles/videos/PokeAPI.mp4'
 import Trackbus from '../../../styles/imgs/proyectos/Trackbus.png'
 import github from '../../../styles/imgs/iconos/iconogithub.png'
 

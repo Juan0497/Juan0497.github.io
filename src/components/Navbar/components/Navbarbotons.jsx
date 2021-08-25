@@ -11,7 +11,7 @@ const Navbarbotons = () => {
         <a href="#" className="navbar-nav">
           <img className="Iconohome" src={Iconohome} alt={Iconohome} />
         </a>
-        <a href="#Projects" className="navbar-nav p-4">
+        <a href="#Carousel" className="navbar-nav p-4">
           Projects
         </a>
         <a href="#Skillset" className="navbar-nav p-4">

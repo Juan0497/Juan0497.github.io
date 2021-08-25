@@ -10,6 +10,9 @@ import logobootstrap from '../../../styles/imgs/logos/logobootstrap.svg'
 import logobabel from '../../../styles/imgs/logos/logobabel.svg'
 import logowebpack from '../../../styles/imgs/logos/logowebpack.svg'
 import logonodejs from '../../../styles/imgs/logos/logonodejs.svg'
+import logogsap from '../../../styles/imgs/logos/logogsap.svg'
+import logosql from '../../../styles/imgs/logos/logosql.png'
+import logoes6 from '../../../styles/imgs/logos/logoes6.svg'
 
 const SkillsetImg = () => {
   return (
@@ -58,6 +61,21 @@ const SkillsetImg = () => {
         <img className="SkillsetImg-nodejs" src={logonodejs} alt={logonodejs} />
         <div className="SkillsetImg-nodejs-underline rounded-pill"></div>
         <h2 className="SkillsetImg-nodejs-name">Nodejs</h2>
+      </div>
+      <div className="SkillsetImg-gsap-container">
+        <img className="SkillsetImg-gsap" src={logogsap} alt={logogsap} />
+        <div className="SkillsetImg-gsap-underline rounded-pill"></div>
+        <h2 className="SkillsetImg-gsap-name">GSAP</h2>
+      </div>
+      <div className="SkillsetImg-sql-container">
+        <img className="SkillsetImg-sql" src={logosql} alt={logosql} />
+        <div className="SkillsetImg-sql-underline rounded-pill"></div>
+        <h2 className="SkillsetImg-sql-name">SQL</h2>
+      </div>
+      <div className="SkillsetImg-es6-container">
+        <img className="SkillsetImg-es6" src={logoes6} alt={logoes6} />
+        <div className="SkillsetImg-es6-underline rounded-pill"></div>
+        <h2 className="SkillsetImg-es6-name">es6</h2>
       </div>
     </div>
   )

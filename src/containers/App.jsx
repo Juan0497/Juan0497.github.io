@@ -1,8 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
-import Carruceltitle from '../components/Carrucel/Carruceltitle'
+import Photo from "../components/Photo/Photo"
 import Carrucel from '../components/Carrucel/Carrucel'
-import Skillsettitle from '../components/Skillset/Skillsettitle'
 import Skillset from '../components/Skillset/Skillset'
 import Social from '../components/Social/Social'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -13,9 +12,8 @@ const App = () => {
     <div className="App-container w-md-50 w-lg-100 w-xl-100">
       <Navbar />
       <div className="App-hero d-flex justify-content-center"></div>
-      <Carruceltitle />
+      <Photo />
       <Carrucel />
-      <Skillsettitle />
       <Skillset />
       <div className="App-footer ">
         <Social />
