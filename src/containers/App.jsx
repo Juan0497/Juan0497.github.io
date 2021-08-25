@@ -9,7 +9,7 @@ import '../styles/PortfolioStyles.css'
 
 const App = () => {
   return (
-    <div className="App-container w-md-50 w-lg-100 w-xl-100">
+    <div className="App-container w-md-50 w-lg-100 w-xl-100 float-start">
       <Navbar />
       <div className="App-hero d-flex justify-content-center"></div>
       <Photo />

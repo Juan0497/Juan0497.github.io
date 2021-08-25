@@ -4,9 +4,9 @@ import Animation from "./components/Animation";
 
 const Photo = () => {
     return (
-        <div>
-            <Photocontainer />
-        </div>
+      <div className="float-sm-none">
+        <Photocontainer />
+      </div>
     )
 }
 
